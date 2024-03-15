@@ -1,0 +1,250 @@
+a{
+    letter-spacing: -0.75px;
+}
+
+main{
+    padding: 35px 0;
+}
+main>div>h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: -0.75px;
+}
+.qnaTop{
+    justify-content: space-between;
+}
+.qnaNav{
+    vertical-align: baseline;
+    gap: 5px;
+}
+.qnaNav li:not(li:last-child)::after{
+    display: inline-block;
+    content: '';
+    width: 6px; height: 6px;
+    border-right: 1px solid #888;
+    border-top: 1px solid #888; ;
+    transform: rotate(45deg);
+    margin: 3px 8px 2px 6px;
+}
+.qnaNav a{
+    font-size: 13px;
+    color: #888;
+
+}
+.tapWrap{
+    margin-top: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #111;
+}
+
+.tapWrap li>a{
+    color: #888;
+    font-size: 16px;
+    letter-spacing: -0.75px;
+    font-weight: 500;
+}
+.tapWrap li:not(li:first-child)::before{
+    display: inline-block;
+    content: '';
+    width: 1px; height: 14px;
+    margin: 2px 20px 0;
+    background-color: #ddd;
+}
+.info{
+    justify-content: space-between;
+    padding: 50px 0 30px ;
+    border-bottom: 1px solid #ddd;
+}
+.info p{
+    color: #111;
+    margin-bottom: 10px;
+}
+.info span>a{
+    color: #ff143c;
+    font-size: 14px;
+}
+select{
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 50px 0 20px;
+    font-size: 15px;
+    color: #888888;
+    height: 40px;
+}
+input{
+    outline: none;
+    border: 1px solid #ddd;
+    width: 308px; height: 40px;
+    padding: 0 20px;
+}
+button{
+    width: 42px; height: 42px;
+    background-color: #222;
+    background-image: url(../img/sp_common.png);
+    background-position: -448px -40px;
+    background-repeat: no-repeat;
+    line-height: 36px;
+    text-align: center;
+}
+.searchTap{
+    padding: 50px 0;
+}
+.searchTap>ul{
+    flex-wrap: wrap;
+}
+.searchTap li{
+    display: block;
+    background-color: #f5f5f5;
+    width: 298px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    border-right: 2px solid #fff;
+    color: #888888;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.searchTap li:nth-child(-n+4){
+    border-bottom: 2px solid #fff;
+}
+.searchTap li::after{
+    display: inline-block;
+    content: '';
+    width: 8px; height: 8px;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid#dfdfdf;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 23px;
+    left: 272px;
+}
+
+.searchTap  .action{
+    background-color: #222;
+    color: #fff;
+}
+.searchAns{
+    border-top: 2px solid #111;
+}
+.search dt{  
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    line-height: 75px;
+    position: relative;
+}
+.search dt::before{
+    content: 'Q';
+    font-weight: 600;
+    color: #238ece;
+    font-size: 16px;
+    margin-right: 20px;
+    position: relative;
+}
+.search dt{
+    position: relative;
+}
+.search dt::after{
+    display: inline-block;
+    content: '';
+    width: 9px; height: 9px;
+    border-left: 1px solid #111;
+    border-bottom: 1px solid #111;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+.search dd{
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555555;
+    line-height: 24px;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+
+.search dd::before{
+    display: inline-block;
+    content: 'A';
+    font-weight: 600;
+    color: #ff143c;
+    position: absolute;
+    top: 28px;
+    left:36px;
+    margin-right: 20px;
+}
+.qus {
+    background-color:#fff;
+    padding: 15px;
+}
+
+.asw {
+    max-height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+
+.active {
+    background-color:#fff;
+}
+
+.pad60{
+    padding: 30px 70px;
+}
+
+.searchContent{
+    display: none;
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
+
+/* 나중에 지우기 (잠깐 가리는용도..) */
+.rkflrl{
+    display: none;
+}
+/* 나중에 지우기 */
+
+/* praise section */
+.personalInfo p{
+    margin: 30px 0 15px;
+    font-size: 16px;
+}
+.box{
+    background-color: #f5f5f5;
+    padding: 30px;
+    max-height: 180px;
+    overflow-y: scroll;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+.agreeForm{
+    text-align: right;
+}
+input{
+    width: 22px; height: 22px;
+    margin-right: 10px;
+    vertical-align:middle ;
+}
+input:checked{
+    background: none;
+    appearance: none;
+    background-color: #ff143c;
+    border-radius: 50px;
+}
+label{
+    display: inline-block;
+    margin-right: 20px;
+}
+.personalInfo p{    
+    color: #ff143c;
+    font-size: 14px;
+}

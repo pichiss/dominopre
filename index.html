@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/hdft.css">
+    <link rel="stylesheet" href="css/domino.css">
+</head>
+
+<body>
+    <header class="w100">
+        <div class="header_wrap w1200">
+            <h1><a class="common_img" href=""></a></h1>
+            <div class="location"><a href=""><span class="arrow common_img"></span>주변 매장의 프로모션을 확인해보세요!</a></div>
+            <ul>
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><select class="lang" name="lang" id="lang">
+                        <option>KOR</option>
+                        <option>ENG</option>
+                    </select></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="w100">
+        <ul class="w1200">
+            <li><a href="">메뉴</a></li>
+            <li><a href="">e-쿠폰</a></li>
+            <li><a href="">상품권 선물</a></li>
+            <li><a href="">이벤트·제휴</a></li>
+            <li><a href="">매장검색</a></li>
+            <li><a href="">가맹점 모집</a></li>
+            <li class="nav_more flex" onclick="n_more()">더보기<span class="moreArrow"></span></li>
+        </ul>
+        <div id="more_wrap" class="n_more_wrap">
+            <div class="w1200 flex">
+                <ul>
+                    <span><a href="">도미노 서비스</a></span>
+                    <li><a href="">매니아 혜택</a></li>
+                    <li><a href="">도미노 모멘트</a></li>
+                    <li><a href="">퀵오더</a></li>
+                    <li><a href="">단체주문 서비스</a></li>
+                </ul>
+                <ul>
+                    <span><a href="">고객센터</a></span>
+                    <li><a href="">자주하는 질문</a></li>
+                    <li><a href="">문의/칭찬하기</a></li>
+                    <li><a href="">문의 내역/답변</a></li>
+                </ul>
+                <ul>
+                    <span><a href="">회사소개</a></span>
+                    <li><a href="">한국도미노피자</a></li>
+                    <li><a href="">광고갤러리</a></li>
+                    <li><a href="">사회공헌활동</a></li>
+                    <li><a href="">가맹점모집</a></li>
+                    <li><a href="">인재채용</a></li>
+                </ul>
+                <div class="notice">
+                    <span><a href="">공지사항</a></span>
+                    <p><a href="">-도미노뉴스</a></p>
+                    <p><a href="">-보도자료</a></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="w100">
+        <section class="w100 slide_wrap">
+            <article>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1"></div>
+                        <div class="swiper-slide slide2"></div>
+                        <div class="swiper-slide slide3"></div>
+                        <div class="swiper-slide slide4"></div>
+                        <div class="swiper-slide slide5"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination sp"></div>
+                    <div class="slPause"></div>
+                </div>
+            </article>
+
+        </section>
+        <section class="w1200 order_wrap">
+            <article class="delivery">
+                <div class="common_img"></div>
+                <h2>배달 주문<span></span></h2>
+                <p>등급별 최대 30%</p>
+            </article>
+            <article class="tackout">
+                <div class="common_img"></div>
+                <h2>포장 주문<span></span></h2>
+                <p>등급별 최대 40%</p>
+            </article>
+            <article class="quick">
+                <div></div>
+                <h2>퀵오더<span></span></h2>
+                <p>자주 이용하는 메뉴를<br>
+                    더 빠르게 주문해보세요!</p>
+            </article>
+        </section>
+        <section class="w100 mania_wrap">
+            <article class="w1200 mania">
+                <div>
+                    <h2>도미노피자의
+                        <span>특별한 매니아 혜택</span>
+                        누려보세요!
+                    </h2>
+                    <div class="maniaLogin">로그인</div>
+                </div>
+                <ul>
+                    <li><a href=""><img src="img/main_card1.png" atl=""> </a></li>
+                    <li><a href=""><img src="img/main_card2.gif" atl=""></a></li>
+                    <li><a href=""><img src="img/main_card5.png" atl=""></a></li>
+                </ul>
+            </article>
+        </section>
+        <section class="w100 bnWrap">
+            <article class="w1200 bnr_wrap">
+                <div class="swiper1 mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/20240216_EcPgdM2T.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/20231024_nILoMUXO.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/20220621_Ummq9X16.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/20220114_MZKmWb0r.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiperBtn">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="w100">
+        <div class="w1200 f_top">
+            <div>
+                <div class="footer_order">
+                    <h1><a class="common_img" href=""></a></h1>
+                    <div class="tel">1577-3082</div>
+                </div>
+                <ul>
+                    <li><a class="grey" href="">이용약관</a></li>
+                    <li><a class="strong" href="">개인정보 처리방침</a></li>
+                    <li><a class="strong" href="">위치기반 서비스</a></li>
+                    <li><a class="grey" href="">청소년 보호방침</a></li>
+                    <li><a class="grey" href="">영상정보처리기기</a></li>
+                    <li><a class="grey" href="">운영관리방침</a></li>
+                    <li><a class="grey" href="">고객센터</a></li>
+                    <li><a class="grey" href="">인재채용</a></li>
+                    <li><a class="grey" href="">가맹점모집</a></li>
+                    <li><a class="grey" href="">단체주문</a></li>
+                </ul>
+                <div class="grey footer_info">
+                    <p>06223 서울특별시 강남구 역삼로25길 35(역삼동, 청오큐브타워) 청오디피케이㈜｜대표이사 : 오광현,김영훈</p>
+
+                    <p>사업자 등록번호: 220-81-03371｜통신판매업신고: 강남 5064호｜개인정보 보호책임자 : 윤여진｜민원 책임자 : 임영길</p>
+
+                    <p>문의 : webmaster@dominos.co.kr</p>
+
+                    <p>Copyright ⓒ Domino’s Pizza. All rights reserved.</p>
+                    <p><br></p>
+                    <p>청오디피케이㈜의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수
+                        없습니다.</p>
+
+                    <p>도미노피자에서 판매되는 모든 상품은 청오디피케이㈜에서 책임지고 있습니다.</p>
+                </div>
+            </div>
+            <div class="footer_cont">
+                <div>
+                    <div><select class="langu grey" name="ftLang" id="ftLang">
+                            <option>KOR</option>
+                            <option>ENG</option>
+                        </select></div>
+                    <div class="down">
+                        <p>DOWNLODE APP</p>
+                        <ul>
+                            <li>
+                                <a class="common_img apple" href=""></a>
+                            </li>
+                            <li>
+                                <a class="common_img android" href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul>
+                    <li><a class="common_img bl" href=""></a></li>
+                    <li><a class="common_img in" href=""></a></li>
+                    <li><a class="common_img fb" href=""></a></li>
+                    <li><a class="common_img yt" href=""></a></li>
+                    <li><a class="common_img tw" href=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w100 f_bot">
+            <div class="w1200">
+                <ul>
+                    <li><img src="img/list_awards.png" alt="awards1">
+                        <p>식품안전<br>
+                            경영시스템 인증</p>
+                    </li>
+                    <li><img src="img/list_awards2.png" alt="awards2">
+                        <p>지식경제부<br>
+                            우수디자인 선정</p>
+                    </li>
+                    <li><img src="img/list_awards3.png" alt="award3">
+                        <p> 2022년 고객이 가장 추천하는 기업<br>
+                            피자전문점 부문 10년 연속 1위</p>
+                    </li>
+                    <li><img src="img/list_awards4.png" alt="award4">
+                        <p>2023년 한국산업 고객만족도<br>
+                            피자전문점 부문 9년 연속 1위</p>
+                    </li>
+                    <li><img src="img/list_awards5.png" alt="awards5">
+                        <p> 2023 프리미엄브랜드지수<br>
+                            피자전문점 부문 8년 연속 1위 수상</p>
+                    </li>
+                    <li><img src="img/list_awards6.png" alt="awards6">
+                        <p> 대학생 1000명이 선택한<br>
+                            2019 올해의 핫 브랜드 캠퍼스 잡앤조이 선정</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+        });
+        var swiper1 = new Swiper(".mySwiper1", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        let pause = document.querySelector('.slPause')
+        pause.addEventListener('click',function(){
+            if(pause.classList.contains('slPlay')){
+                pause.classList.remove('slPlay')
+                swiper.autoplay.start()
+            }else{
+                pause.classList.add('slPlay')
+                swiper.autoplay.stop()
+            }
+        })
+    </script>
+
+    <script src="js/domiso.js"></script>
+</body>
+
+</html>

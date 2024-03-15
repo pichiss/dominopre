@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hdft.css">
+    <link rel="stylesheet" href="css/qna.css">
+</head>
+
+<body>
+    <header class="w100">
+        <div class="header_wrap w1200">
+            <h1><a class="common_img" href=""></a></h1>
+            <ul>
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a class="lang" href="">kor</a></li>
+            </ul>
+        </div>
+    </header>
+    <nav class="w100">
+        <ul class="w1200">
+            <li><a href="">메뉴</a></li>
+            <li><a href="">e-쿠폰</a></li>
+            <li><a href="">상품권 선물</a></li>
+            <li><a href="">이벤트·제휴</a></li>
+            <li><a href="">매장검색</a></li>
+            <li><a href="">가맹점 모집</a></li>
+            <li class="nav_more flex" onclick="n_more()">더보기<span class="moreArrow"></span></li>
+        </ul>
+        <div id="more_wrap" class="n_more_wrap">
+            <div class="w1200 flex">
+                <ul>
+                    <span><a href="">도미노 서비스</a></span>
+                    <li><a href="">매니아 혜택</a></li>
+                    <li><a href="">도미노 모멘트</a></li>
+                    <li><a href="">퀵오더</a></li>
+                    <li><a href="">단체주문 서비스</a></li>
+                </ul>
+                <ul>
+                    <span><a href="">고객센터</a></span>
+                    <li><a href="">자주하는 질문</a></li>
+                    <li><a href="">문의/칭찬하기</a></li>
+                    <li><a href="">문의 내역/답변</a></li>
+                </ul>
+                <ul>
+                    <span><a href="">회사소개</a></span>
+                    <li><a href="">한국도미노피자</a></li>
+                    <li><a href="">광고갤러리</a></li>
+                    <li><a href="">사회공헌활동</a></li>
+                    <li><a href="">가맹점모집</a></li>
+                    <li><a href="">인재채용</a></li>
+                </ul>
+                <div class="notice">
+                    <span><a href="">공지사항</a></span>
+                    <p><a href="">-도미노뉴스</a></p>
+                    <p><a href="">-보도자료</a></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="w1200">
+        <div class="flex qnaTop">
+            <h2>고객센터</h2>
+            <ul class="flex qnaNav">
+                <li><a href="">홈</a></li>
+                <li><a href="">고객센터</a></li>
+                <li><a href="">자주하는 질문</a></li>
+            </ul>
+        </div>
+        <ul class="flex tapWrap">
+            <li><a href="">자주하는 질문</a></li>
+            <li><a href="">문의/칭찬하기</a></li>
+            <li><a href="">문의 내역/답변</a></li>
+        </ul>
+        <section class="search">
+            <div class="flex info">
+                <div>
+                    <p><a href="">도미노피자에 대한 궁금증을 바로 확인하실 수 있습니다.</a></p>
+                    <span><a href="">도미노피자 고객만족센터 080-860-3082</a></span>
+                </div>
+                <div>
+                    <select>
+                        <option>제목</option>
+                        <option>내용</option>
+                        <option>제목+내용</option>
+                    </select>
+                    <input type="text">
+                    <button></button>
+                </div>
+            </div>
+            <div class="searchTap">
+                <ul class="flex">
+                    <li>피자 주문하기</li>
+                    <li>주문확인</li>
+                    <li>포장 주문</li>
+                    <li>할인/쿠폰</li>
+                    <li>상품권/도미노콘/선물</li>
+                    <li>도미노페이/퀵오더</li>
+                    <li>회원/로그인</li>
+                    <li>기타</li>
+                </ul>
+            </div>
+            <article class="searchContent searchAns firstQu">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt class="qus">예약 주문은 어디서 할 수 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">예약 주문은 장바구니에서 설정이 가능합니다. 예약을 변경하거나 취소하는 경우 장바구니와 결제하기에서 가능합니다.</div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">현금영수증 발급은 어떻게 할 수 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">E쿠폰, 도미노콘, M12 모바일 기프트권을 사용하거나 도미노페이 계좌이체로 결제한 온라인 주문은 현금영수증이 자동
+                                    발급됩니다.<br>
+                                    단, 지류상품권 사용 또는 현장현금결제 시에는 결제가 '완료'된 후 매장에서 수동으로 현금영수증 발급 처리해드립니다.<br>
+                                    <br>
+                                    <br>
+                                    ■ 현금영수증 발급받기<br>
+                                    　- 주문시점: [주문/결제 페이지 > 현금영수증] 란에서 신청하여 발급 가능<br>
+                                    <br>
+                                    <br>
+                                    ■ 현금영수증 확인하기<br>
+                                    - 경로 : [나의정보 > 주문내역 > 주문내역상세 > 현금영수증 조회 클릭]<br>
+                                    <br>
+                                    <br>
+                                    ■ 현금영수증 신청정보 관리하기<br>
+                                    ※ 주문전 [나의정보 > 정보수정 > 현금영수증 관리]에서 '현금영수증 신청 정보' 입력이 가능합니다.<br>
+                                    <br>
+                                    <br>
+                                    ■ 기타사항<br>
+                                    - 현금영수증 발행 대상이나 미신청한 경우에는 자진발급하여 발행처리해 드립니다.<br>
+                                    - 자진발급분의 경우 현금영수증 식별번호가 010-0000-1234로 기재됩니다.<br>
+                                    - 발행방법이 자진발급인 경우 국세청 사이트에서 자진발급분 사용자 등록을 하셔야만 소득공제 등 혜택을 받으실 수 있습니다.<br>
+                                    - 현금영수증 발행내역은 국세청 사이트(http://hometax.go.kr)에서 조회가 가능합니다.<div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">도미노 페이가 무엇인가요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    도미노페이는 최초 한 번의 등록으로 빠르고 간편하게 결제를 할 수 있는 간편결제수단입니다.<br>
+                                    도미노페이 등록 후 결제비밀번호 생략을 하시면 결제하기 버튼 클릭 시 즉시 결제가 가능합니다.<br>
+                                    (단, 5만원 이상 결제 시에는 결제 비밀번호 입력 필수/계좌이체인 경우 금액 관계 없이 비밀번호 입력 필수)
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">퀵오더가 무엇인가요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    자주 이용하는 나만의 메뉴를 빠르게 주문하는 서비스입니다.<br>
+                                    퀵오더 등록 가능한 제품에 한해서 퀵오더로 등록하신 후 사용해주세요.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">회원 가입 후 개명을 했는데 어떻게 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    아이디나 비밀번호를 분실 하신 경우는 개명된 정보로 찾기가 불가능 하기 때문에 고객만족팀(080-860-3082)으로 연락 부탁드립니다. 개명 전 정보
+                                    확인 후 로그인이 가능하도록 도와드립니다.<br>
+                                    로그인 후 나의정보>정보변경 페이지에서 본인인증을 다시 하면 개명된 정보를 업데이트 할 수 있습니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">e쿠폰(쇼핑몰 쿠폰) 주문시 메뉴 변경은 불가능 한가요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    메뉴 변경이 가능합니다.(단, 일부 프로모션 상품에 메뉴 변경 불가로 기재된 쿠폰은 변경이 불가합니다.)<br>
+
+                                    원하시는 피자를 담고 결제하기 화면에서 할인적용 > 상품권 및 쿠폰번호 입력> 'e-쿠폰(쇼핑몰쿠폰)' 을 선택하여 쿠폰번호를 입력하시면 할인이
+                                    적용됩니다.<br>
+
+                                    e쿠폰 보다 가격이 높은 메뉴 주문 시에는 추가 금액을 지불하셔야 하며, 가격이 낮은 메뉴 주문할 경우에는 e쿠폰 사용이 불가합니다.<br>
+
+                                    e쿠폰은 세트메뉴 주문 시 사용 불가하며 방문포장 할인 및 쿠폰 할인 등 다른 할인쿠폰과 중복하여 사용할 수 없습니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">도미노콘을 선물 받았는데 어떻게 이용 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    온라인 주문 시 이용 가능합니다.(전화주문 불가)<br>
+                                    <br>
+                                    원하시는 메뉴를 담고 결제하기 화면에서 할인적용>상품권 및 쿠폰번호 입력>"도미노콘(모바일상품권)"을 선택하여 쿠폰번호를 입력하시면 할인이
+                                    적용됩니다.<br>
+                                    <br>
+                                    1) 단품 도미노콘의 경우 명시된 피자 또는 동일 가격 피자 1판에 대해서 주문할 수 있습니다. 피자 외 다른 제품은 할인 되지 않습니다.<br>
+                                    <br>
+                                    2) 세트 도미노콘의 경우 메뉴 정가를 기준으로 할인 적용 되며, 피자 외 제품에 대해서도 금액 차감됩니다. 다만, 세트 구성 상품 유형에 맞게
+                                    주문하셔야 하며, 피자는 피자금액에서, 사이드디시는 사이드디시 금액에서 차감됩니다. 콜라는 다른음료로 변경할 수 없습니다.<br>
+                                    <br>
+                                    도미노콘 금액 보다 주문 금액이 낮은 낮은 경우에도 이용 가능하나, 잔액은 환불 불가합니다.<br>
+                                    <br>
+                                    ※ 타 할인과 중복할인은 불가합니다.(단, 사이드디시 반값은 동시 이용 가능)
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">주문 한 메뉴를 변경하거나 취소해야 할 경우에는 어떻게 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    주문 접수 후 피자 메이킹이 이루어질 경우에는 주문 변경이나 취소가 어렵습니다.<br>
+                                    <br>
+                                    주문을 취소하시려면 해당 매장으로 전화하셔야 하나<br>
+                                    예약 주문 취소는 4판 이하 주문, 예약시간 기준 1시간 이상 남았을 시 주문내역 상세 페이지에서 취소 요청이 가능합니다.<br>
+                                    <br>
+                                    해당매장 전화번호는 주문내역 페이지나, 매장 검색(https://web.dominos.co.kr/branch)에서 가능합니다.<br>
+                                    <br>
+                                    매장에 전화하셔서 주문번호를 함께 말씀해 주시면 빠른 처리가 가능합니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">휴면계정으로 처리됐는데 어떻게 해야 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    가입 시 선택한 개인정보 유효기간(1년, 3년, 5년) 이상 도미노피자 서비스를 이용하지 않은 회원님들의 개인정보는 휴면상태로 전환되며 분리 저장되고
+                                    있습니다.<br>
+                                    지속적인 서비스 이용 및 혜택 안내를 원하실 경우, 도미노피자 온라인(홈페이지/모바일/앱)에 1회 이상 로그인을 하시면 이용 기간이 연장됩니다.
+                                    (개인정보 유효기간만큼)<br>
+                                    휴면계정으로 전환된 경우 본인인증 후에 휴면 해제가 가능하며, 재로그인 하시어 사용 가능합니다.<br>
+                                    휴대폰 번호 변경, 개명 등으로 인해 로그인이 불가능한 경우 고객만족팀(080-860-3082)로 연락 주시면 대응해 드리겠습니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">휴대폰 번호가 변경되어 로그인을 할 수 없어요.</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    휴대폰 번호가 변경되어 로그인이 불가능한 경우(아이디 찾기/비밀번호 찾기 불가)는 고객만족팀(080-860-3082)으로 연락 부탁드립니다. 정보 확인
+                                    후 로그인이 가능하도록 도와드립니다. 로그인 후 휴대폰 번호 변경 부탁드립니다.<br>
+                                    <br>
+                                    아이디와 비밀번호는 알고 계신 경우는 로그인 후 나의정보>정보변경 페이지에서 휴대전화를 변경하고 재인증하시면 번호 변경이 가능합니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </article>
+            <article class="searchContent pizzaOrder">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt class="qus">배달주소 등록은 어떻게 해야 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    배달주문 이용 시 배달지 등록은 최대 10개까지 등록이 가능합니다.<br>
+                                    검색창을 통해 주소 검색(도로명,건물명, 지번 등) 후 이용하시거나, 모바일의 경우 "현위치로 주소 설정"을 클릭하시면 주소를 모르더라도 현재 위치로
+                                    배달지 등록이 가능합니다. (단, 위치정보 허용 필수)<br>
+                                    <br>
+                                    검색된 주소 선택 후 상세 주소를 입력하시면 등록 가능합니다.<br>
+                                    검색이 불가능한 주소는 배달이 불가능한 지역입니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">결제수단은 어떤 것들이 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    피자 결제수단은 미리결제(선결제)와 현장결제(피자 수령시 직접 결제)로 나누어집니다.<br>
+                                    <br>
+                                    도미노피자 간편결제인 도미노페이를 이용 하시면 한번의 등록으로 빠르고 간편하게 결제 이용이 가능합니다. (카드와 계좌이체 이용 가능)<br>
+                                    <br>
+                                    그외, 신용카드, 휴대폰, 네이버페이, 카카오페이, 스마일페이, 페이코, 토스, Apple Pay 등 다양한 결제수단을 제공하고 있습니다.<br>
+                                    <br>
+                                    현장결제의 경우 신용카드 및 현금 중에 선택 가능합니다.<br>
+                                    <br>
+                                    ※도미노페이 > 계좌이체를 이용하시는 경우 현금영수증은 자동 발급되며, 현장결제>현금 으로 주문하실 경우 매장에서 발행해야 하므로 발급요청 유무를
+                                    선택해 주세요.<br>
+                                    <br>
+                                    미리결제를 이용하시면, 보다 빠르고 안전하게 피자 전달이 가능합니다.<br>
+                                    일부 서비스는 미리결제만 제공하고 있습니다.(드라이빙 픽업 서비스, 비대면 배달 등)
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">주문한 메뉴를 변경하고 싶을 때는 어떻게 하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    미리결제를 하신 경우는 메뉴 변경이 불가능하여, 해당 매장에 전화하여 취소처리 하셔야 합니다. (결제취소 및 쿠폰 복구는 최대 30분 소요)<br>
+                                    <br>
+                                    현장결제로 주문을 접수한 경우는 매장에 전화하여 메뉴 변경이 가능합니다.<br>
+
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">피자 선물하기가 가능한가요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    다른분께 피자를 선물하고 싶은 경우 배달 주문으로 선택하여 메뉴를 담아주세요.<br>
+                                    마지막 결제하기 페이지에서 수령인 정보에 "주문자와 동일" 체크박스를 풀면, "해당 주문을 선물하시겠습니까?" 체크박스 옵션이 노출됩니다.<br>
+                                    체크를 하고, 받는 분의 정보를 입력해 주십시오.<br>
+                                    "선물메세지입력창"에 메세지를 입력하시면 주문 접수시 선물메세지가 SMS로 발송됩니다. (원치 않으실 경우 메세지 입력은 생략 가능합니다.)<br>
+                                    <br>
+                                    선물하기를 이용하실 경우, 미리결제만 이용 가능합니다.<br>
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">전 매장 모두 제품 가격은 동일한가요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    일반 매장의 경우 모두 동일 가격에 판매하고 있으며,<br>
+                                    일부 특수 매장은 온라인 주문이 불가하며, 일반 매장과 판매가격에 차이가 있습니다.(대명비발디파크점, 알펜시아점)
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">온라인 주문 서비스를 이용하면 어떤 할인 혜택이 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    온라인 회원가입을 하시면, Regular등급 쿠폰(피자 20%)은 즉시 발급 받으실 수 있습니다.<br>
+                                    가입 시 E-mail과 SMS 수신동의 또는 기존정보 업데이트 시, 방문포장 40% 할인쿠폰 제공됩니다. (분기(6개월) 1회에 한함)<br>
+                                    <br>
+                                    그외, 통신사 멤버쉽 할인, 신용카드 제휴할인, 방문포장 할인 등 다양한 할인혜택을 받을 수 있습니다.(중복할인 불가)<br>
+                                    신용카드 제휴할인 선택 시에는 반드시 해당 신용카드로 결제하셔야 해당 할인혜택을 받으실 수 있습니다.<br>
+                                    <br>
+                                    자세한 할인 정보는 아래 링크에서 확인 부탁드립니다.<br>
+                                    https://web.dominos.co.kr/event/discount<br>
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </article>
+            <article class="searchContent orderCheck">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt class="qus">현금영수증 발급은 어떻게 할 수 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    E쿠폰, 도미노콘, M12 모바일 기프트권을 사용하거나 도미노페이 계좌이체로 결제한 온라인 주문은 현금영수증이 자동 발급됩니다.<br>
+                                    단, 지류상품권 사용 또는 현장현금결제 시에는 결제가 '완료'된 후 매장에서 수동으로 현금영수증 발급 처리해드립니다.<br>
+                                    <br>
+                                    ■ 현금영수증 발급받기<br>
+                                    　- 주문시점: [주문/결제 페이지 > 현금영수증] 란에서 신청하여 발급 가능<br>
+                                    <br>
+                                    ■ 현금영수증 확인하기<br>
+                                    - 경로 : [나의정보 > 주문내역 > 주문내역상세 > 현금영수증 조회 클릭]<br>
+                                    <br>
+                                    ■ 현금영수증 신청정보 관리하기<br>
+                                    ※ 주문전 [나의정보 > 정보수정 > 현금영수증 관리]에서 '현금영수증 신청 정보' 입력이 가능합니다.<br>
+                                    <br>
+                                    ■ 기타사항<br>
+                                    - 현금영수증 발행 대상이나 미신청한 경우에는 자진발급하여 발행처리해 드립니다.<br>
+                                    - 자진발급분의 경우 현금영수증 식별번호가 010-0000-1234로 기재됩니다.<br>
+                                    - 발행방법이 자진발급인 경우 국세청 사이트에서 자진발급분 사용자 등록을 하셔야만 소득공제 등 혜택을 받으실 수 있습니다.<br>
+                                    - 현금영수증 발행내역은 국세청 사이트(http://hometax.go.kr)에서 조회가 가능합니다.
+                                </div>
+
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">주문상태는 어떻게 확인할 수 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    나의정보>주문내역에서 확인 가능합니다.<br>
+                                    주문이 완료된 후 매장에서 주문을 접수하고 고객님께서 피자를 받으실 때까지의 단계를 표시 하고 있습니다.<br>
+                                    <br>
+                                    접수완료 : 매장으로 주문이 접수되었습니다.<br>
+                                    요리중 : 매장에서 피자를 만들고 있습니다.<br>
+                                    배달중 : 배달주문의 경우 배달원이 피자를 배달중인 상태입니다.(GPS Tracker를 통해 실시간 위치 확인이 가능합니다.<br>
+                                    수령가능 : 포장주문의 경우 피자 포장이 완료되어 수령이 가능한 상태입니다.<br>
+                                    배달완료/수령완료 : 고객님께 피자가 전달된 상태 입니다.<br>
+                                    <br>
+                                    주문취소 : 매장을 통해 주문을 취소하신 경우를 나타냅니다
+                                </div>
+
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">결제 승인 및 취소 현황은 어떻게 확인하나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    미리결제로 진행하신 주문의 결제 승인 및 취소 현황은 각 카드사 혹은 간편결제 사이트에서 확인 가능합니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">결제내역 영수증을 출력하고 싶습니다.</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    도미노페이나 신용카드, Apple Pay 결제의 경우는 주문내역에서 영수증 출력이 가능하나,<br>
+                                    다른 결제수단(네이버페이, 카카오페이 등)은 해당 간편결제 사이트/앱에서 확인 가능합니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt class="qus">주문한 내역은 어디에서 확인할 수 있나요?</dt>
+                            <dd class="asw">
+                                <div class="pad60">
+                                    주문한 내역은 나의정보>주문내역에서 확인 가능합니다.
+                                    최근 1년 이내 주문한 내역만 확인 가능합니다.<br>
+                                    <br>
+                                    매장(1577-3082) 또는 콜센터(1588-3082), 다른 계정으로 주문하신 내역은 확인이 불가능 합니다.<br>
+                                    온라인 상으로 주문한 최초의 이력만 확인하실 수 있으며, 전화를 통해 변경하신 사항은 반영되지 않습니다.<br>
+                                    <br>
+                                    메뉴 변경이나 주문취소를 원하실 경우, 매장에 주문번호를 알려 주셔야 합니다. (온라인으로 주문취소는 불가합니다.)<br>
+                                    <br>
+                                    피자주문이력은 최근 3개월 내역까지만 삭제 가능하며, 주문이 취소되는 것은 아닙니다.
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </article>
+            <article class="searchContent"></article>
+            <article class="searchContent"></article>
+            <article class="searchContent"></article>
+            <article class="searchContent"></article>
+            <article class="searchContent"></article>
+            <article class="searchContent"></article>
+        </section>
+        <section class="praise">
+            <div class="info">
+                <p><a href="">도미노피자를 이용하시면서 느꼈던 불편한 점이나 건의사항, 제품에 대한 의견을 남겨주시면 성심껏 답변해드리겠습니다.<br>
+                        <br>
+                        ※주문 취소/변경과 같은 긴급한 요청은 매장으로 연락 부탁드립니다.</a></p>
+                <span><a href="">도미노피자 고객만족센터 080-860-3082</a></span>
+            </div>
+            <div class="personalInfo">
+                <p>개인정보 수집 및 이용동의</p>
+                <div class="box">
+                    회사는 고객문의에 대해 정확하고 빠른 대응을 위해 아래와 같이 개인정보를 수집하고 있습니다.<br>
+                    <br>
+                    <수집하는 개인정보의 항목><br>
+                        -이름, 휴대전화, 이메일, 비밀번호<br>
+                        <br>
+                        <개인정보의 수집 및 이용목적><br>
+                            - 문의사항의 접수 및 답변의 전달<br>
+                            - 원활한 의사소통 경로의 확보<br>
+                            - 고객불만 등에 대한 대응<br>
+                            <br>
+                            <보유 및 이용기간><br>
+                                - 보유근거 : 전자상거래 등에서의 소비자보호에 관한 법률<br>
+                                - 보유기간 : 3년 (소비자의 불만 또는 분쟁처리에 관한 기록)<br>
+                                <br>
+                                * 문의에 대한 처리과정에서 회사(매장 또는 고객대응팀)는 고객님께 연락드릴 수 있습니다.<br>
+                                * 문의하기 서비스 이용에 필요한 최소한의 개인정보 수집·이용에 동의하지 않을 권리가 있으나 동의 거부 시 신속한 문제해결이 제한될 수 있습니다.
+                </div>
+                <div class="agreeForm">
+                    <form>
+                        <input type="radio" id="agree" name="agree" value="agree">
+                        <label>동의함</label>
+                        <input type="radio" id="disagree" name="agree" value="disagree">
+                        <label>동의하지 않음</label>
+                    </form>
+                </div>
+                <p>제목과 내용에 개인정보를 기입하지 마시기 바랍니다.</p>
+                    
+                    <p>또한 신분증, 증빙서류 등 개인정보가 포함된 파일은 업로드하지 마시기 바랍니다.</p>
+                    <p></p>
+                    필요할 시 고객만족센터 안내를 받으시고 하단 개인정보 수집이용 동의서와 함께 보내주시기 바랍니다.
+                
+                <div>
+                    <a>개인정보 수집이용 동의서 다운로드</a>
+                </div>
+            </div>
+            <article></article>
+        </section>
+
+    </main>
+    <footer class="w100">
+        <div class="w1200 f_top">
+            <div>
+                <div class="footer_order">
+                    <h1><a class="common_img" href=""></a></h1>
+                    <div class="tel">1577-3082</div>
+                </div>
+                <ul>
+                    <li><a class="grey" href="">이용약관</a></li>
+                    <li><a class="strong" href="">개인정보 처리방침</a></li>
+                    <li><a class="strong" href="">위치기반 서비스</a></li>
+                    <li><a class="grey" href="">청소년 보호방침</a></li>
+                    <li><a class="grey" href="">영상정보처리기기</a></li>
+                    <li><a class="grey" href="">운영관리방침</a></li>
+                    <li><a class="grey" href="">고객센터</a></li>
+                    <li><a class="grey" href="">인재채용</a></li>
+                    <li><a class="grey" href="">가맹점모집</a></li>
+                    <li><a class="grey" href="">단체주문</a></li>
+                </ul>
+                <div class="grey footer_info">
+                    <p>06223 서울특별시 강남구 역삼로25길 35(역삼동, 청오큐브타워) 청오디피케이㈜｜대표이사 : 오광현,김영훈</p>
+
+                    <p>사업자 등록번호: 220-81-03371｜통신판매업신고: 강남 5064호｜개인정보 보호책임자 : 윤여진｜민원 책임자 : 임영길</p>
+
+                    <p>문의 : webmaster@dominos.co.kr</p>
+
+                    <p>Copyright ⓒ Domino’s Pizza. All rights reserved.</p>
+                    <p><br></p>
+                    <p>청오디피케이㈜의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수
+                        없습니다.</p>
+
+                    <p>도미노피자에서 판매되는 모든 상품은 청오디피케이㈜에서 책임지고 있습니다.</p>
+                </div>
+            </div>
+            <div class="footer_cont">
+                <div>
+                    <div class="grey langu">kor</div>
+                    <div class="down">
+                        <p>DOWNLODE APP</p>
+                        <ul>
+                            <li>
+                                <a class="common_img apple" href=""></a>
+                            </li>
+                            <li>
+                                <a class="common_img android" href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul>
+                    <li><a class="common_img bl" href=""></a></li>
+                    <li><a class="common_img in" href=""></a></li>
+                    <li><a class="common_img fb" href=""></a></li>
+                    <li><a class="common_img yt" href=""></a></li>
+                    <li><a class="common_img tw" href=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w100 f_bot">
+            <div class="w1200">
+                <ul>
+                    <li><img src="img/list_awards.png" alt="awards1">
+                        <p>식품안전<br>
+                            경영시스템 인증</p>
+                    </li>
+                    <li><img src="img/list_awards2.png" alt="awards2">
+                        <p>지식경제부<br>
+                            우수디자인 선정</p>
+                    </li>
+                    <li><img src="img/list_awards3.png" alt="award3">
+                        <p> 2022년 고객이 가장 추천하는 기업<br>
+                            피자전문점 부문 10년 연속 1위</p>
+                    </li>
+                    <li><img src="img/list_awards4.png" alt="award4">
+                        <p>2023년 한국산업 고객만족도<br>
+                            피자전문점 부문 9년 연속 1위</p>
+                    </li>
+                    <li><img src="img/list_awards5.png" alt="awards5">
+                        <p> 2023 프리미엄브랜드지수<br>
+                            피자전문점 부문 8년 연속 1위 수상</p>
+                    </li>
+                    <li><img src="img/list_awards6.png" alt="awards6">
+                        <p> 대학생 1000명이 선택한<br>
+                            2019 올해의 핫 브랜드 캠퍼스 잡앤조이 선정</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/qna.js"></script>
+</body>
+
+</html>
